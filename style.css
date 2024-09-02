@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.cv-container {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-left {
+    flex: 1;
+    text-align: center;
+}
+
+.header-left img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.header-right {
+    flex: 2;
+    text-align: center;
+}
+
+.header-right h1 {
+    margin: 0;
+    color: #ff8001;
+}
+
+.header-right p {
+    margin: 5px 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ff8001;
+    border-bottom: 2px solid #ff8001;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #ff8001;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.photo-cv {
+    width: 15%; /* Adjuster à la taille souhaitée en px ou % au choix */
+    vertical-align: middle;
+}
+
+.wild-code-logo {
+    width: 5%; /* Adjuster à la taille souhaitée en px ou % au choix */
+    vertical-align: middle;
+}
