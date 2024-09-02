@@ -41,6 +41,22 @@ body {
     color: #ff8001;
 }
 
+.contact-info-header {
+    display: flex;
+    align-items: left;
+    margin-bottom: 10px;
+}
+
+.contact-info-left {
+    flex: 2;
+    text-align: left;
+}
+
+.contact-info-right {
+    flex: 2;
+    text-align: left;
+}
+
 .header-right p {
     margin: 5px 0;
 }
