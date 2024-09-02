@@ -41,20 +41,18 @@ body {
     color: #ff8001;
 }
 
-.contact-info-header {
+.contact-columns {
     display: flex;
-    align-items: left;
-    margin-bottom: 10px;
+    justify-content: space-between;
 }
 
-.contact-info-left {
-    flex: 2;
-    text-align: left;
+.column {
+    flex: 1;
+    margin-right: 20px;
 }
 
-.contact-info-right {
-    flex: 2;
-    text-align: left;
+.column:last-child {
+    margin-right: 0;
 }
 
 .header-right p {
